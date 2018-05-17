@@ -1,0 +1,39 @@
+#gen{
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+}
+.open{
+	position: relative;
+	display: flex;
+	width: 80%;
+}
+.triangle{
+	width: 0;
+	height:0;
+	border:44px solid;
+	border-color:transparent white transparent transparent;
+	position: relative;
+	right:88px;
+	align-self: center;
+}
+.content{
+	position: relative;
+	right: 50px;
+}
+.content p { 
+	font-size: 18px;
+	line-height: 1.5;
+}
+.moreIn #inf{
+	display: block;
+	height: 100%;
+	font-size: 19px;
+	text-decoration: none;
+	color:red;
+	font-style: italic;
+	display: flex;
+}
+.moreIn .more{
+	margin-right: 15px;
+}
